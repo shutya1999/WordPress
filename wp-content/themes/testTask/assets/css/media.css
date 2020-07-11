@@ -1,0 +1,47 @@
+@media (max-width: 1024px) {
+    .logo {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container, .main-menu{
+        padding: 0 50px;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    #btn-menu{
+        display: block;
+    }
+    .header-burger{
+        display: block;
+    }
+    .mobile-menu{
+        width: 40%;
+    }
+    .woman img{
+        height: 200px;
+    }
+    .logo img{
+        width: 120px;
+    }
+    .slogan h1{
+        font-size: 25px;
+    }
+}
+@media (max-width: 560px) {
+    .main-header{
+        justify-content: center;
+    }
+    .woman img{
+        display: none;
+    }
+    .logo img{
+        width: 70px;
+        margin: 20px 0;
+    }
+    .slogan h1{
+        font-size: 20px;
+    }
+}
